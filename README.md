@@ -6,6 +6,7 @@
 <div style="justify">
 
 ### Co i dlaczego?
+
 Istnieje wiele poradników do wielu przypadków, jednak często jest tak, że ktoś próbuje wytłumaczyć i opisać dany problem. To oczywiście dobrze, aleee... takie poradniki opisują całość, pokazują wszystkie funkcje.
 
 To i dobrze i źle.
@@ -16,12 +17,18 @@ To i dobrze i źle.
 
 * **Mój plan na ten projekt jest prosty:**
 
-Stworzyć kolekcję poradników na podstawie tego co sam używam, co jest jest najbardziej niezbędne/przydatne i jak używać danej rzeczy wygodnie.
+Stworzyć kolekcję poradników oraz cheat sheet'ów na podstawie tego co sam używam, co jest jest najbardziej niezbędne/przydatne i jak używać danej rzeczy wygodnie.
 
->Po prostu opowiem krok po kroku jak używam danej aplikacji / jak rozwiązuję dany problem.
+>Po prostu opowiem krok po kroku jak używam danej aplikacji / jak rozwiązuję dany problem oraz wrzucę pliki ze zbiorem funkcji.
+
 
 ### Jakie plany?
-* Git & Github
-* Boostnote & Markdown
-* Docker
+* Stworzenie serii poradników dla niedoświadczonych,
+* Platformy:
+  * Windows 10,
+  * Ubuntu,
+* Poradniki:
+  * Git & Github
+  * Boostnote & Markdown
+  * Docker
 </div>
