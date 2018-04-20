@@ -14,6 +14,7 @@
 >#### Emoji
 >>      :point_right::ok_hand::rage:
 >> Wyświetli takie oto emoji: :point_right::ok_hand::rage:
+>> 
 >> [Lista dostępnych emoji](https://gist.github.com/rxaviers/7360908)
 >***
 >#### Nagłówki:
@@ -62,20 +63,25 @@
 >> * punkt 3
 >***
 >#### Lista numerowana
+>>
 >>      1. Punkt 1
 >>      2. Punkt 2
->>          2. 1.1 Podpunkt
->>            2. 1.1.1. Podpunkt
->>                2. 1.1.1.1. Podpunkt
+>>         1. Podpunkt
+>>             1. Pod Podpunkt
+>>          1. Podpunkt
+>>          1. Podpunkt
 >>      3. Punkt 3
 >>      
->> Kolejne wcięcia w liście tworzymy trzema spacjami i numerem podpunktu. Tu jak widać `2. 1.` między `2.` a `1.` jest spacja przerwy, niezbędna do poprawnego pozycjonowania w hierarchii. Kolejne numery `2. 1.1.1.` powinny pojawiać się bez przerwy między znakami. A oto efekt:
+>> Podobnie jak poprzednio robimy wcięcia dla hierarchii, ale dodatkowo numerujemy. Elementy będące podpunktami numerujemy od `1` jak nową listę.
+>> 
 >> 1. Punkt 1
 >> 2. Punkt 2
->>    2. 1.1 Podpunkt
->>       2. 1.1.1. Podpunkt
->>          2. 1.1.1.1. Podpunkt
+>>    1. Podpunkt
+>>       1. Pod Podpunkt
+>>    2. Podpunkt
+>>    3. Podpunkt
 >> 3. Punkt 3
+>> 
 >***
 >#### Stylowanie tekstu
 >>      __some text__
@@ -84,11 +90,17 @@
 >>      ~~some text~~
 >>      ~~*__sometext__*~~
 >> Podwójne znaczniki do stylizowania fragmentów tekstu, można je ze sobą łączyć tak jak to widać poniżej:
+>> 
 >> __some text__
->> _some text_
+>>
+>>  _some text_
+>> 
 >> *__some text__*
+>> 
 >> ~~some text~~
+>> 
 >> ~~*__sometext__*~~
+>>
 >>:warning: `*` daje ten sam efekt co `_`.
 >***
 >#### Bloki kodu `~~~`
@@ -122,11 +134,14 @@ print(x);
 >>      | Jimm | Jimm | Jack |
 >>      | 1 | 2 | 3 |
 >> Rysujemy tabelę w ascii i tyle.
+>> 
 >> | Kolumna 1 | Kolumna 2 | Kolumna 3 |
 >> | - | - | - |
 >> | Aleks | Serhii | Mikołaj |
 >> | Jimm | Jimm | Jack |
 >> | 1 | 2 | 3 |
+>> 
+>> :warning: Może nie działać poza boostnote'm
 >***
 >#### Linia jak `<hr/>`
 >>      ***
