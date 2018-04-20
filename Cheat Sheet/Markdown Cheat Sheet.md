@@ -14,8 +14,8 @@
 >> Dlaczego? Nie wiem. Ale działa :+1:
 >***
 >#### Emoji
->>      :point_right::ok_hand::rage:
->> Wyświetli takie oto emoji: :point_right::ok_hand::rage:
+>>      :point_right::ok_hand::smiling_imp:
+>> Wyświetli takie oto emoji: :point_right::ok_hand::smiling_imp:
 >> 
 >> [Lista dostępnych emoji](https://gist.github.com/rxaviers/7360908)
 >***
