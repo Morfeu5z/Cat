@@ -1,4 +1,3 @@
 # Info
 
-Hi, this is a backup directory for boostnote with my notes about "How I using it" and cheat sheets.
-You can download this files and open them in your Boostnote.
+To jest folder z backup'em moich notatek odnośnie projektu "Cat". Możesz go pobrać i otworzyć w Boostnote wcześniej wskazując folder z tym Repo.
