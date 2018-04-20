@@ -1,5 +1,5 @@
 createdAt: "2018-04-20T08:40:41.910Z"
-updatedAt: "2018-04-20T21:38:05.700Z"
+updatedAt: "2018-04-20T22:09:24.400Z"
 type: "MARKDOWN_NOTE"
 folder: "45b0680f0adbe2a3da40"
 title: "- Markdown -"
@@ -14,12 +14,15 @@ content: '''
   ### Cheet Sheet:
   >#### Zacznijmy od tego, że nie wszystko działa:
   >>:warning: Style `css` działają w boostnote, ale nie na githubie.
+  >>
   >>:warning:  Nie zawsze `HTML` działa z plikiem `README.md`, by zadziałało trzeba wkleić do github wiki zawartość roboczą, zapisać i przekopiować z wiki do `README.md`
-  >>    Dlaczego? Nie wiem. Ale działa :+1:
+  >>
+  >> Dlaczego? Nie wiem. Ale działa :+1:
   >***
   >#### Emoji
-  >>      :point_right::ok_hand::rage:
-  >> Wyświetli takie oto emoji: :point_right::ok_hand::rage:
+  >>      :point_right::ok_hand::smiling_imp:
+  >> Wyświetli takie oto emoji: :point_right::ok_hand::smiling_imp:
+  >> 
   >> [Lista dostępnych emoji](https://gist.github.com/rxaviers/7360908)
   >***
   >#### Nagłówki:
@@ -44,6 +47,7 @@ content: '''
   >>      ## My Title with Markdown
   >>      </div>
   >> Taki zapis pozwoli na przesunięcie tekstu w div'ie na środek. Ewentualnie pozycjonować do prawej `align="right"`, do lewej `align="left"` lub wyjustować `align="justify"`.
+  >> 
   >> :warning: Uwaga: między div'em, a znacznikiem markdown musi być linia przerwy inaczej markdown nie zostanie poprawnie zinterpretowany.
   >***
   >#### Check box
@@ -68,20 +72,25 @@ content: '''
   >> * punkt 3
   >***
   >#### Lista numerowana
+  >>
   >>      1. Punkt 1
   >>      2. Punkt 2
-  >>          2. 1.1 Podpunkt
-  >>            2. 1.1.1. Podpunkt
-  >>                2. 1.1.1.1. Podpunkt
+  >>         1. Podpunkt
+  >>             1. Pod Podpunkt
+  >>          1. Podpunkt
+  >>          1. Podpunkt
   >>      3. Punkt 3
   >>      
-  >> Kolejne wcięcia w liście tworzymy trzema spacjami i numerem podpunktu. Tu jak widać `2. 1.` między `2.` a `1.` jest spacja przerwy, niezbędna do poprawnego pozycjonowania w hierarchii. Kolejne numery `2. 1.1.1.` powinny pojawiać się bez przerwy między znakami. A oto efekt:
+  >> Podobnie jak poprzednio robimy wcięcia dla hierarchii, ale dodatkowo numerujemy. Elementy będące podpunktami numerujemy od `1` jak nową listę.
+  >> 
   >> 1. Punkt 1
   >> 2. Punkt 2
-  >>    2. 1.1 Podpunkt
-  >>       2. 1.1.1. Podpunkt
-  >>          2. 1.1.1.1. Podpunkt
+  >>    1. Podpunkt
+  >>       1. Pod Podpunkt
+  >>    2. Podpunkt
+  >>    3. Podpunkt
   >> 3. Punkt 3
+  >> 
   >***
   >#### Stylowanie tekstu
   >>      __some text__
@@ -90,11 +99,17 @@ content: '''
   >>      ~~some text~~
   >>      ~~*__sometext__*~~
   >> Podwójne znaczniki do stylizowania fragmentów tekstu, można je ze sobą łączyć tak jak to widać poniżej:
+  >> 
   >> __some text__
-  >> _some text_
+  >>
+  >>  _some text_
+  >> 
   >> *__some text__*
+  >> 
   >> ~~some text~~
+  >> 
   >> ~~*__sometext__*~~
+  >>
   >>:warning: `*` daje ten sam efekt co `_`.
   >***
   >#### Bloki kodu `~~~`
@@ -128,11 +143,13 @@ content: '''
   >>      | Jimm | Jimm | Jack |
   >>      | 1 | 2 | 3 |
   >> Rysujemy tabelę w ascii i tyle.
+  >> 
   >> | Kolumna 1 | Kolumna 2 | Kolumna 3 |
   >> | - | - | - |
   >> | Aleks | Serhii | Mikołaj |
   >> | Jimm | Jimm | Jack |
   >> | 1 | 2 | 3 |
+  >> 
   >***
   >#### Linia jak `<hr/>`
   >>      ***
