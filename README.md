@@ -23,6 +23,7 @@ Stworzyć kolekcję poradników oraz cheat sheet'ów na podstawie tego co sam u�
 
 
 ### Jakie plany?
+* Stworzenie kolekcji Cheat Sheet'ów
 * Stworzenie serii poradników dla niedoświadczonych,
 * Platformy:
   * Windows 10,
