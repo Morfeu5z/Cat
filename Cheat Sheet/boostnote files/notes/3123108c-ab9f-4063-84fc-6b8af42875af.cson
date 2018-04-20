@@ -1,0 +1,20 @@
+createdAt: "2018-04-20T09:48:33.918Z"
+updatedAt: "2018-04-20T09:54:32.876Z"
+type: "MARKDOWN_NOTE"
+folder: "c96688e4cfbae92b9ea3"
+title: "Info"
+content: '''
+  # Info
+  
+  To jest folder z backup'em moich notatek odnośnie projektu "Cat". Możesz go pobrać i otworzyć w Boostnote wcześniej wskazując w ustawieniach folder z tym Repo.
+  ### Przykład:
+  
+       C:/MyFolder/Repo/Cat/Cheat Sheet/boostnote files
+  
+'''
+tags: [
+  "boostnote"
+  "backup"
+]
+isStarred: false
+isTrashed: false
