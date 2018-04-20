@@ -8,8 +8,10 @@
 ### Cheet Sheet:
 >#### Zacznijmy od tego, że nie wszystko działa:
 >>:warning: Style `css` działają w boostnote, ale nie na githubie.
+>>
 >>:warning:  Nie zawsze `HTML` działa z plikiem `README.md`, by zadziałało trzeba wkleić do github wiki zawartość roboczą, zapisać i przekopiować z wiki do `README.md`
->>    Dlaczego? Nie wiem. Ale działa :+1:
+>>
+>> Dlaczego? Nie wiem. Ale działa :+1:
 >***
 >#### Emoji
 >>      :point_right::ok_hand::rage:
@@ -39,6 +41,7 @@
 >>      ## My Title with Markdown
 >>      </div>
 >> Taki zapis pozwoli na przesunięcie tekstu w div'ie na środek. Ewentualnie pozycjonować do prawej `align="right"`, do lewej `align="left"` lub wyjustować `align="justify"`.
+>> 
 >> :warning: Uwaga: między div'em, a znacznikiem markdown musi być linia przerwy inaczej markdown nie zostanie poprawnie zinterpretowany.
 >***
 >#### Check box
@@ -141,7 +144,6 @@ print(x);
 >> | Jimm | Jimm | Jack |
 >> | 1 | 2 | 3 |
 >> 
->> :warning: Może nie działać poza boostnote'm
 >***
 >#### Linia jak `<hr/>`
 >>      ***
