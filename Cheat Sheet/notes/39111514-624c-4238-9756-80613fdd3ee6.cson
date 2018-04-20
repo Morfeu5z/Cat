@@ -1,0 +1,33 @@
+createdAt: "2018-04-19T15:40:08.960Z"
+updatedAt: "2018-04-20T07:02:23.655Z"
+type: "MARKDOWN_NOTE"
+folder: "45b0680f0adbe2a3da40"
+title: "- Tmux -"
+content: '''
+  <center>
+  
+  # - Tmux -
+  ### For Linux Terminal
+  #### Program, który pozwala w jednym terminalu odpalić kilka.
+  </center>
+  
+  ### Cheet Sheet:
+  >#### Zacznijmy od tego, że:
+  >>       ctrl + b + ...
+  >używane jest do wszystkiego.
+  >#### Dzielenie okna w poziomie
+  >>      ctrl + b + %
+  >#### Dzielenie okna w pionie
+  >>      ctrl + b + "
+  >#### Zamknięcie jednego terminala
+  >>      ctrl + b + c
+  >#### Przejście po oknach
+  >>      ctrl + b + strzałki
+'''
+tags: [
+  "tmux"
+  "cheat"
+  "linux"
+]
+isStarred: false
+isTrashed: false

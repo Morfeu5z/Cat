@@ -1,0 +1,30 @@
+createdAt: "2018-04-19T11:05:13.767Z"
+updatedAt: "2018-04-20T07:02:19.697Z"
+type: "MARKDOWN_NOTE"
+folder: "45b0680f0adbe2a3da40"
+title: "- Nano -"
+content: '''
+  <center>
+  
+  # - Nano -
+  ### For Linux Terminal
+  #### Program konsolowy do edycji plików tekstowych.
+  </center>
+  
+  ### Cheet Sheet:
+  >#### Otwieranie pliku
+  >>      sudo nano plik.txt
+  >#### Zapisanie zmian
+  >>      ctrl + o
+  >#### Zaznaczenie linii
+  >>      ctrl + alt + 6
+  >#### Kopiowanie zaznaczenia
+  >>      ctrl + 6
+'''
+tags: [
+  "nano"
+  "cheat"
+  "linux"
+]
+isStarred: false
+isTrashed: false

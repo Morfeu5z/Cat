@@ -1,0 +1,140 @@
+createdAt: "2018-04-19T13:32:03.558Z"
+updatedAt: "2018-04-20T05:43:15.617Z"
+type: "MARKDOWN_NOTE"
+folder: "647ab2e0bb00ebfcc70d"
+title: "Sprawozdanie"
+content: '''
+  <span style="opacity: 0">Sprawozdanie</span>
+  
+  >Projekt chmury internetowej
+  <center>
+  
+  ![Logo](https://raw.githubusercontent.com/Morfeu5z/Trashpanda-Cloud/version/static/pic/trashpanda.PNG)
+  </center>
+  <div align="justify">
+  
+  ### 1. Wstęp
+  Celem projektu jest postawienie własnego serwera na sprzęcie Mac Pro 1.1 i utworzenia na nim chmury z danymi wielu użytkowników. Podstawą chmury będzie system operacyjny Fedora 27 w wersji Server na której stoi Docker z przygotowanymi narzędziami. 
+  
+  Rejestracja odbędzie się na zasadzie zalogowania na konto google i sprawdzenia czy użytkownik już istnieje. Jeśli nie to wyskoczy zapytanie czy chce założyć swój TrashBox. Jeśli tak to dostanie do dyspozycji 5GB pamięci. Domyślnie użytkownicy będą logowali się tylko z pomocą konta Google.
+  
+  Wszystkie pliki domyślnie będą ustawione jako publiczne, jednak użytkownik dostanie możliwość zastrzeżenia wybranych plików jako prywatne. Podczas dodawania nowego pliku, program przeprowadzi porównywania z istniejącymi już plikami poprzez wykorzystanie hash sumy, a gdy wykryje identyczny plik, zamiast dodawania kolejnego, powiąże dodającego użytkownika z istniejącym już plikiem. 
+  
+  Gdy użytkownik zechce usunąć plik, wówczas we wpisie wiążącym zostanie wprowadzona modyfikacja, przez co plik będzie widoczny w „Koszu”. Po opróżnieniu kosza plik zostanie usunięty całkowicie, bądź jeśli korzystają z niego inni użytkownicy, odłączony od konta tego kto usuwał. 
+  
+  System daje możliwość update’u pliku dzięki czemu starsza wersja zostanie zachowana jako old, a nowa będzie aktualną. Pozwoli to na przywracanie poprzednich wersji plików. Serwer będzie również sprawdzał i usuwał pliki stare, nieużywane i niepołączone z żadnym użytkownikiem. 
+  
+  ### 2. Funkcjonalności:
+  > __Administrator:__
+  >>* Blokowanie użytkowników
+  >>* Wyświetlanie logów
+  >>* Zarządzanie zgłoszeniami
+  >>* Blokada i analiza plików zgłoszonych
+  >
+  >__Użytkownik:__
+  >>* Logowanie przez Google,
+  >>* Zmiana nazwy użytkownika (nickname),
+  >>* Zgłaszanie niebezpiecznych plików,
+  >>* Dodawanie plików,
+  >>* Przeniesienie do kosza,
+  >>* Usuwanie plików z kosza,
+  >>* Wyszukiwanie plików na własnej przestrzeni dyskowej,
+  >>* Wyszukiwanie plików globalnie,
+  >>* Pobieranie plików,
+  >>* Update pliku z przechowywaniem starszej wersji,
+  >>* Przywrócenie starszych wersji plików.
+  
+  ### 3.	Role i obowiązki:
+  #### Lider: 	
+  >Aleksander Sinkowski (Super Boss)
+  
+  Czuwanie nad projektem i etapami wykonywania zadań. Zebranie poszczególnych sprawozdań i stworzenie końcowego. Ocena końcowa osób biorących udział w projekcie. 
+  
+  #### Front-end: 
+  >Aleksander Sinkowski (boss)
+  
+  Projektowanie design’u strony w wersji desktopowej oraz mobilnej. Oprogramowanie obsługa narzędzi oraz usług po stronie klienta. Tworzenie grafiki.
+  >Aleksandra Pawlaczyk 
+  
+  Projektowanie design’u strony w wersji desktopowej oraz mobilnej. Oprogramowanie obsługa narzędzi oraz usług po stronie klienta. Tworzenie grafiki.
+  
+  #### Back-end: 
+  >Serhii Riznychuk (boss)
+  
+  Stworzenie architektury chmury, baz danych, obsługi baz danych, stworzenie narzędzi oraz usług chmury. Prowadzenie testów.
+  
+  >Mikołaj Rychel 
+  
+  Stworzenie architektury chmury, baz danych, obsługi baz danych, stworzenie narzędzi oraz usług chmury. Prowadzenie testów.
+  
+  #### Full-stack:
+  >Marcin Ochociński
+  
+  Będzie dynamicznie zmieniał front i pomagał tym co pomocy potrzebują, a także tester.
+  
+  #### Administracja serwera: 
+  >Serhii Riznychuk (boss)
+  
+  Instalacja Fedory Server oraz niezbędnych narzędzi do zarządzania. Konfiguracja zdalnego dostępu. Serwis hardware’u. Wprowadzenie sztuk zaawansowanej magii (przede wszystkim czarnej).
+  >Mikołaj Rychel 
+  
+  Instalacja Fedory Server oraz niezbędnych narzędzi do zarządzania. Konfiguracja zdalnego dostępu. Serwis hardware’u.
+  >Aleksander Sinkowski 
+  
+  Instalacja Fedory Server oraz niezbędnych narzędzi do zarządzania. Konfiguracja zdalnego dostępu. Serwis hardware’u.
+  
+  ### 4.	Technologie i sprzęt:
+  #### Technologie web:
+  *	Front-end:
+      * HTML
+      * CSS
+      * JavaScript
+      * Flask
+  <br>
+  
+  * Back-end:
+    * Python
+    * Flask
+    * MySQL
+  
+  ### 5.	Etapy prac:
+  #### Progres projektu:
+  > **1. Podział obowiązków i ustalenie zakresu prac.**
+  >> Podzililiśmy sie na grupy i ustaliliśmy kto co robi.
+  >
+  > **2. Instalacja Fedora Server na Mac Pro 1.1.**
+  >> Złożyliśmy w całość stary sprzęt po czym uruchomiliśmy system Fedora 27 w wersji Server
+  >> 
+  >> ![server](https://raw.githubusercontent.com/Morfeu5z/Trashpanda-Cloud/version/static/pic/llapadiy-server.jpg)
+  >
+  > **3. Konfiguracja serwera do pracy zdalnej, github i trello.**
+  >> Zdobyliśmy dynamiczne IP oraz przeprowadziliśmy konfigurację urządzeń tak by serwer był widoczny w sieci.  Założyliśmy nowe Repo na github'ie oraz skonfigurowaliśmy tryb współpracy. Stworzyliśmy na trello nową tablicę, po czym przydzieliliśmy zadania do zrobienia.
+  >
+  > **4. Pierwszy szablon.**
+  >> Zaprojektowaliśmy pierwszą wersję wyglądu chmury oraz stworzyliśmy diagram przypadków użycia.
+  >
+  > **5. Uruchomiliśmy Docker'a z własnym przygotowanym obrazem.**
+  >> Okazało się, że jest możliwość uruchomienia docker'a na systemie Fedora 27 Server. Przygotowaliśmy obraz, który pobiera ubuntu, update'y, instaluje poptrzebne elementy i uruchamia wszystko automatycznie. Dzięki temu w razie problemów wystarczy zniszczyć kontener i uruchomić go na nowo.
+  >
+  >**6. Przyjazny link.**
+  >> Nasz mały serwer trafił do szkolnej serwerowni, dzięki czemu uzyskaliśmy przyjazny link oraz szybkie łącze.
+  >> Link: trashpanda.pwsz.nysa.pl
+  >> 
+  >> ![server in server room](https://raw.githubusercontent.com/Morfeu5z/Trashpanda-Cloud/version/static/pic/llapadiy-server-in-server-room.jpg)
+  >> To ten maluszek po prawej na dole.
+  >
+  > **6. Przygotowanie drugiej wersji design'u oraz przeniesienie trello na github projects.**
+  >> Uznaliśmy, że pójdziemy w styl minimalistyczny wzorując się na Google. Przygotowaliśmy więc wersję drugą design'u strony i umieściliśmy na github'ie. Po restarcie kontenera na dockerze pobrała się nowa wersja z github'a. Trello niestety nie dawało możliwości na publiczne przedstawienie zadań więc przenieśliśmy wszystko na github projects co było bardzo dobrą decyzją.
+  >
+  > **7. Logowanie przez konto Google i częściowe dopracowanie wyglądu.**
+  >> Zrealizowaliśmy logowanie za pomocą konta Google. Najpierw zarejestrowaliśmy naszą usługę na Google api console podając link do strony. Bez tego nie działało by logowanie. Usunęliśmy również bugi związane z css'em oraz przy pomocy inkscape stworzyliśmi pierwsze wersje logo. Ta poniżej to aktualna.
+  >>![drugie logo](https://raw.githubusercontent.com/Morfeu5z/Trashpanda-Cloud/version/static/pic/trashpanda.PNG)
+  >
+  >**8. In progress...**
+'''
+tags: [
+  "trashpanda"
+  "sprawozdanie"
+]
+isStarred: false
+isTrashed: false

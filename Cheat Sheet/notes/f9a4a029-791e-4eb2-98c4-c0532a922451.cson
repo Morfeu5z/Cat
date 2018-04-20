@@ -1,0 +1,23 @@
+createdAt: "2018-04-20T08:40:41.910Z"
+updatedAt: "2018-04-20T08:46:30.813Z"
+type: "MARKDOWN_NOTE"
+folder: "45b0680f0adbe2a3da40"
+title: "- Markdown -"
+content: '''
+  <center>
+  
+  # - Markdown -
+  ### For .md file
+  #### Markdown pozwala na proste tworzenie notatek za pomocą znaczników własnych jak i html'a.
+  </center>
+  
+  ### Cheet Sheet:
+  >#### Zacznijmy od tego, że nie wszystko działa:
+  >>      * Style css'a działają w boostnote, ale nie na githubie.
+  >#### Nagłówki:
+  >>      ### Tekst
+  >> Im więcej `#` tym mniejszy nagłówek, czyli `# Tekst` to to samo co `<h1>Tekst</h1>`.
+'''
+tags: []
+isStarred: false
+isTrashed: false

@@ -1,0 +1,48 @@
+createdAt: "2018-04-20T06:17:47.227Z"
+updatedAt: "2018-04-20T08:52:18.660Z"
+type: "MARKDOWN_NOTE"
+folder: "c96688e4cfbae92b9ea3"
+title: "How I using it /"
+content: '''
+  <center>
+  
+  # < How I using it />
+  </center>
+  
+  <div style="justify">
+  
+  ### Co i dlaczego?
+  
+  Istnieje wiele poradników do wielu przypadków, jednak często jest tak, że ktoś próbuje wytłumaczyć i opisać dany problem. To oczywiście dobrze, aleee... takie poradniki opisują całość, pokazują wszystkie funkcje.
+  
+  To i dobrze i źle.
+  
+  >Wiele jest pokazane z rzeczy przydatnych, ale równie wiele jest zbędnych.
+  
+  <br>
+  
+  * **Mój plan na ten projekt jest prosty:*
+  
+  Stworzyć kolekcję poradników na podstawie tego co sam używam, co jest jest najbardziej niezbędne/przydatne i jak używać danej rzeczy wygodnie.
+  
+  >Po prostu opowiem krok po kroku jak używam danej aplikacji / jak rozwiązuję dany problem.
+  
+  
+  ### Jakie plany?
+  * Stworzenie serii poradników dla niedoświadczonych,
+  * Platformy:
+    * Windows 10,
+    * Ubuntu,
+  * Poradniki:
+    * Git & Github
+    * Boostnote & Markdown
+    * Docker
+  </div>
+'''
+tags: [
+  "how"
+  "wiki"
+  "readme"
+]
+isStarred: false
+isTrashed: false
