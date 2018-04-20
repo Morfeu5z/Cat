@@ -1,7 +1,7 @@
-<center>
+<div align="center">
 
 # < How I using it />
-</center>
+</div>
 
 <div style="justify">
 
