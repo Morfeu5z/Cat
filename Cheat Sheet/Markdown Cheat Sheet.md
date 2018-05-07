@@ -150,4 +150,22 @@ print(x);
 >> No i w sumie tyle, a ewentualnie również trzy razy `_`. 
 >>***
 >***
+>>#### Wyświetlanie ASCII Artów
+>>      <pre></pre>
+>> Jak wkleisz tak wyświetli :+1:
+>>
+<pre>
+ __________________
+hello, I'm a cow
+ ------------------
+       \   ^__^
+         \  (oo)\_______
+            (__)\             )\/\
+                ||-------w |
+                ||             ||
+</pre>
+>>:warning: Ale trzeba unikać znaczników `<>`
+>***
+
+
 ## THE END?
