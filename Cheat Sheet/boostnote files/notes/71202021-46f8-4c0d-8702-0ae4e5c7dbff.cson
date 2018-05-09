@@ -1,0 +1,42 @@
+createdAt: "2018-04-24T10:00:40.119Z"
+updatedAt: "2018-04-24T14:18:45.059Z"
+type: "MARKDOWN_NOTE"
+folder: "003ca05b9b00dfa48b37"
+title: "- Start with Laravel -"
+content: '''
+  <div align="center">
+  
+  # - Start with Laravel -
+  ## Web Gallery
+  </div>
+  <div algin="justify">
+  
+  #### 1. Na początek stworzę nowy projekt:
+  > :warning: Uwaga: Pracujemy na Windows 10
+  > * Na początek zainstalowałem starego dobrego XAMPP'a, z domyślnymi ustawieniami, czyli będziemy tworzyć projekt w katalogu `C:\\xampp\\htdocs`.
+  > * Nim przejdziemy do bawienia się laravelem należy najpierw stworzyć projekt w czym pomoże nam narzędzie zwane `composer`. Wpisujemy więc w Google composer i z oficjalnej strony pobieramy wersję .exe ( Chyba, że ktoś woli przez konsolę  ). Jeśli mamy zainstalowanego xampp'a to .exe sobie wybierze folder z php.
+  >* Gdy już mamy poinstalowane, przechodzimy do wiersza poleceń. Sprawdzamy komnedą `composer --version` czy jest widoczny composer. Przechodzimy do folderu, w którym będą umieszczone pliki laravela i poleceniem `composer create-project --prefer-dist laravel/laravel mojprojekt` pobieramy pliki laravela do nowo stworzonego katalogu o nazwia `mojprojekt`.
+  >* Włączamy xampp'a, odpalamy apache'a, w przeglądarce wpisujemy `localhost/mojprojekt/public/`. Powinna nam się pojawić strona startowa laravela.
+  >
+  #### 2. Strona logowania i rejestracji
+  >* w cmd przechodzimy do katalogu z projektem po czym poleceniem `php artisan make:auth` tworzymy domyślne stronę z logowaniem, rejestracją oraz przypomnieniem hasła. Wpiszmy w przeglądarce `localhost/mojprojekt/public/login`, a zobaczymy, że wszystko jest już na gotowe.
+  >* Jednak by działo logowanie, itp. musimy jeszcze stworzyć bazę danych. Odpalamy więc w xampp'ie MySQL i przechodzimy do `localhost/phpmyadmin`. Tam tworzymy nową bazę z kodowaniem utf-8, u mnie nazwa `laravel`. Tyle. Resztę czyli tabele i kolumne stworzy sobie laravel.
+  >* Podłączmy więc bazę do projektu. Otwórzmy plik `.env` jako plik tekstowy i wypełnijmy potzrebne fragmenty czyli typ połącznia, źródło, port, nazwa bazy, nazwa użytkownika i hasło:
+  >
+  >DB_CONNECTION=mysql
+  >DB_HOST=127.0.0.1
+  >DB_PORT=3306
+  >DB_DATABASE=laravel
+  >DB_USERNAME=root
+  >DB_PASSWORD=
+  >
+  >* Przechodzimy do cmd i wpisujemy `php artisan migrate`. W naszej bazie danych powinna powstać tabela `users` oraz `password_resets`. No u mnie coś nie pykł i jest tylko `users` xd.
+  >* :warning: w razie takiej sytuacji należy przejść do folderu `C:\\xampp\\htdocs\\mojprojekt\\app\\Providers`, a następnie otworzyć plik `AppServiceProvider.php` w notatniku i dodać `use Illuminate\\Support\\Facades\\Schema;` oraz w klasie `public function boot()` dopisać `Schema::defaultStringLength(191);`. Teraz wystarczy usunąć starą bazę i stworzyć nową taką samą po czym wykonać wcześniejszy punkt z migracją.
+  >* Przypomnienie hasła wymaga wysłania e-mail'a ale nam to teraz nie w smak, więc zmienimy to przekierowując wiadomość na log. Odnajdujemy `MAIL_DRIVER=smtp` w pliku `.env` i zmieniamy na `MAIL_DRIVER=log`.
+  ></div>
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

@@ -1,5 +1,5 @@
 createdAt: "2018-04-19T11:05:13.767Z"
-updatedAt: "2018-04-20T07:02:19.697Z"
+updatedAt: "2018-04-25T08:10:37.429Z"
 type: "MARKDOWN_NOTE"
 folder: "45b0680f0adbe2a3da40"
 title: "- Nano -"
@@ -17,7 +17,7 @@ content: '''
   >#### Zapisanie zmian
   >>      ctrl + o
   >#### Zaznaczenie linii
-  >>      ctrl + alt + 6
+  >>      ctrl + shift + 6
   >#### Kopiowanie zaznaczenia
   >>      ctrl + 6
 '''

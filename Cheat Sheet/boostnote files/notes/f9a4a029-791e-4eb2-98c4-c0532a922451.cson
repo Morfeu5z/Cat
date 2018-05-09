@@ -1,5 +1,5 @@
 createdAt: "2018-04-20T08:40:41.910Z"
-updatedAt: "2018-04-20T22:09:24.400Z"
+updatedAt: "2018-05-07T10:53:45.508Z"
 type: "MARKDOWN_NOTE"
 folder: "45b0680f0adbe2a3da40"
 title: "- Markdown -"
@@ -155,6 +155,22 @@ content: '''
   >>      ***
   >> No i w sumie tyle, a ewentualnie również trzy razy `_`. 
   >>***
+  >***
+  >>#### Wyświetlanie ASCII Artów
+  >>      <pre></pre>
+  >> Jak wkleisz tak wyświetli :+1:
+  >>
+  <pre>
+   __________________
+  hello, I'm a cow
+   ------------------
+         \\   ^__^
+           \\  (oo)\\_______
+              (__)\\             )\\/\\
+                  ||-------w |
+                  ||             ||
+  </pre>
+  >>:warning: Ale trzeba unikać znaczników `<>`
   >***
   ## THE END?
   

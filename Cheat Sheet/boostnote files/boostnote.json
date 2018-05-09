@@ -9,6 +9,11 @@
       "key": "45b0680f0adbe2a3da40",
       "color": "#FF8E00",
       "name": "Cheat Sheet"
+    },
+    {
+      "key": "003ca05b9b00dfa48b37",
+      "color": "#E10051",
+      "name": "Laravel"
     }
   ],
   "version": "1.0"
