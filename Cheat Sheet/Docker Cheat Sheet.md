@@ -25,3 +25,8 @@
 >### Czyszczenie pozostałości po kontenerach
 >>      docker system prune
 >>Usuwa pozostałości po kontenerach, np. po nieudanym budowaniu, gdy w `images` widać `<none>`. Przy budowie kontenera, jeśli wystąpi błąd to może to pomóc.
+>
+>#### Usuwanie obrazu
+>>      docker rmi <image name>
+> Usuwanie obrazu zbudowanego kontenera. Przykładowo ```docker rmi myDocker```
+>
