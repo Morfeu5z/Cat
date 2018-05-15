@@ -5,6 +5,11 @@
 
 <div align="justify">
 
+>#### Git login
+>>      git config --global user.email "mój@email.com"
+>>      git config --global user.name "MyName"
+>>W ten sposób umożliwimy pushowanie repo, do którgo mamy dostęp.
+>
 >#### Clone Repo
 >>      git clone https://github.com/Morfeu5z/Cat.git
 >
