@@ -50,6 +50,6 @@
 >>Pozwala na dodanie commita ale nie robi pusha.
 >
 >#### Push
->>      git push MyProject master
->>Wykona się wysłanie nowej wersji na github'a na gałąź master
+>>      git push LinkToMyProject master
+>>Wykona się wysłanie nowej wersji na github'a na gałąź master. Może poprosić o login i haslo.
 >
