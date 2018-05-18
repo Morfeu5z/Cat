@@ -1,5 +1,5 @@
 createdAt: "2018-05-07T19:13:19.400Z"
-updatedAt: "2018-05-07T19:17:08.318Z"
+updatedAt: "2018-05-18T13:25:23.937Z"
 type: "MARKDOWN_NOTE"
 folder: "45b0680f0adbe2a3da40"
 title: "- Windows 10 -"
@@ -8,7 +8,7 @@ content: '''
   
   # - Windows 10 -
   
-  </div>
+  <div align='justify'>
   
   ### Cheet Sheet:
   >#### Centrum akcji
@@ -20,6 +20,8 @@ content: '''
   >> Otwiera menu pulpitów wirtualnych oraz okien
   >
 '''
-tags: []
+tags: [
+  "windows"
+]
 isStarred: false
 isTrashed: false

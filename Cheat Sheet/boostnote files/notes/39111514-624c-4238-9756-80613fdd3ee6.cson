@@ -1,15 +1,16 @@
 createdAt: "2018-04-19T15:40:08.960Z"
-updatedAt: "2018-04-20T07:02:23.655Z"
+updatedAt: "2018-05-15T16:30:18.524Z"
 type: "MARKDOWN_NOTE"
 folder: "45b0680f0adbe2a3da40"
 title: "- Tmux -"
 content: '''
-  <center>
+  <div align="center">
   
   # - Tmux -
   ### For Linux Terminal
   #### Program, który pozwala w jednym terminalu odpalić kilka.
-  </center>
+  
+  <div align="justify">
   
   ### Cheet Sheet:
   >#### Zacznijmy od tego, że:

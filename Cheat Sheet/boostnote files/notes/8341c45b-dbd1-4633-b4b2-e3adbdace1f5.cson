@@ -1,5 +1,5 @@
 createdAt: "2018-04-23T22:49:01.368Z"
-updatedAt: "2018-04-24T12:14:09.699Z"
+updatedAt: "2018-05-18T13:25:16.085Z"
 type: "MARKDOWN_NOTE"
 folder: "45b0680f0adbe2a3da40"
 title: "- Git -"
@@ -8,7 +8,8 @@ content: '''
   
   # - Git -
   ### With Github.com
-  </div>
+  
+  <div align="justify">
   
   >#### Clone Repo
   >>      git clone https://github.com/Morfeu5z/Cat.git
@@ -54,6 +55,9 @@ content: '''
   >>Wykona się wysłanie nowej wersji na github'a na gałąź master
   >
 '''
-tags: []
+tags: [
+  "git"
+  "github"
+]
 isStarred: false
 isTrashed: false

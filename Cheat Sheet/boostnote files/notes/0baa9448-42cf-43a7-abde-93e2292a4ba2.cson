@@ -1,5 +1,5 @@
 createdAt: "2018-05-06T10:54:02.808Z"
-updatedAt: "2018-05-06T10:56:59.397Z"
+updatedAt: "2018-05-18T13:25:39.081Z"
 type: "MARKDOWN_NOTE"
 folder: "45b0680f0adbe2a3da40"
 title: "- PHP + Laravel -"
@@ -17,6 +17,8 @@ content: '''
   >>print "</pre>";
   >>~~~
 '''
-tags: []
+tags: [
+  "php"
+]
 isStarred: false
 isTrashed: false
