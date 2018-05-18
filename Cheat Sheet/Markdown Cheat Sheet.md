@@ -1,9 +1,10 @@
-<center>
+<div align='center'>
 
 # - Markdown -
 ### For .md file
 #### Markdown pozwala na proste tworzenie notatek za pomocą znaczników własnych jak i html'a.
-</center>
+
+<div align='justify'>
 
 ### Cheet Sheet:
 >#### Zacznijmy od tego, że nie wszystko działa:
@@ -16,7 +17,7 @@
 >#### Emoji
 >>      :point_right::ok_hand::smiling_imp:
 >> Wyświetli takie oto emoji: :point_right::ok_hand::smiling_imp:
->> 
+>>
 >> [Lista dostępnych emoji](https://gist.github.com/rxaviers/7360908)
 >***
 >#### Nagłówki:
@@ -41,7 +42,7 @@
 >>      ## My Title with Markdown
 >>      </div>
 >> Taki zapis pozwoli na przesunięcie tekstu w div'ie na środek. Ewentualnie pozycjonować do prawej `align="right"`, do lewej `align="left"` lub wyjustować `align="justify"`.
->> 
+>>
 >> :warning: Uwaga: między div'em, a znacznikiem markdown musi być linia przerwy inaczej markdown nie zostanie poprawnie zinterpretowany.
 >***
 >#### Check box
@@ -49,7 +50,7 @@
 >>      - [x] Zaznaczone
 >> - [ ] Odznaczone
 >> - [x] Zaznaczone
->> 
+>>
 >> Jak widać w ten sposób tworzymy checkboxy i możemy np. listę To Do zrobić.
 >***
 >#### Lista nienumeryczna
@@ -76,7 +77,7 @@
 >>      3. Punkt 3
 >>      
 >> Podobnie jak poprzednio robimy wcięcia dla hierarchii, ale dodatkowo numerujemy. Elementy będące podpunktami numerujemy od `1` jak nową listę.
->> 
+>>
 >> 1. Punkt 1
 >> 2. Punkt 2
 >>    1. Podpunkt
@@ -84,7 +85,7 @@
 >>    2. Podpunkt
 >>    3. Podpunkt
 >> 3. Punkt 3
->> 
+>>
 >***
 >#### Stylowanie tekstu
 >>      __some text__
@@ -93,15 +94,15 @@
 >>      ~~some text~~
 >>      ~~*__sometext__*~~
 >> Podwójne znaczniki do stylizowania fragmentów tekstu, można je ze sobą łączyć tak jak to widać poniżej:
->> 
+>>
 >> __some text__
 >>
 >>  _some text_
->> 
+>>
 >> *__some text__*
->> 
+>>
 >> ~~some text~~
->> 
+>>
 >> ~~*__sometext__*~~
 >>
 >>:warning: `*` daje ten sam efekt co `_`.
@@ -137,17 +138,36 @@ print(x);
 >>      | Jimm | Jimm | Jack |
 >>      | 1 | 2 | 3 |
 >> Rysujemy tabelę w ascii i tyle.
->> 
+>>
 >> | Kolumna 1 | Kolumna 2 | Kolumna 3 |
 >> | - | - | - |
 >> | Aleks | Serhii | Mikołaj |
 >> | Jimm | Jimm | Jack |
 >> | 1 | 2 | 3 |
->> 
+>>
 >***
 >#### Linia jak `<hr/>`
 >>      ***
->> No i w sumie tyle, a ewentualnie również trzy razy `_`. 
+>> No i w sumie tyle, a ewentualnie również trzy razy `_`.
 >>***
+>***
+>>#### Wyświetlanie ASCII Artów
+>>      <pre></pre>
+>> Jak wkleisz tak wyświetli :+1:
+>>
+
+<pre>
+ __________________
+hello, I'm a cow
+ ------------------
+       \   ^__^
+         \  (oo)\_______
+            (__)\             )\/\
+                ||-------w |
+                ||             ||
+
+</pre>
+
+>>:warning: Ale trzeba unikać znaczników `<>`
 >***
 ## THE END?

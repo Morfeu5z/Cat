@@ -1,6 +1,6 @@
 <div align="center">
 
-# < How I using it />
+# < How do I use it />
 </div>
 
 <div style="justify">
