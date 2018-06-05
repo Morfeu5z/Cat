@@ -1,13 +1,10 @@
 createdAt: "2018-05-06T10:54:02.808Z"
-updatedAt: "2018-05-18T13:25:39.081Z"
+updatedAt: "2018-05-19T21:47:35.844Z"
 type: "MARKDOWN_NOTE"
 folder: "45b0680f0adbe2a3da40"
 title: "- PHP + Laravel -"
 content: '''
-  <center>
-  
   # - PHP + Laravel -
-  </center>
   
   ### Cheet Sheet:
   >#### Wypisz zawartość zmiennej jeśli nie wiesz co w niej jest

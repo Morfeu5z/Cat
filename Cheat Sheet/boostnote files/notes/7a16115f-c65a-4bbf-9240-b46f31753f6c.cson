@@ -1,5 +1,5 @@
 createdAt: "2018-05-18T13:15:45.738Z"
-updatedAt: "2018-05-18T13:25:07.024Z"
+updatedAt: "2018-05-22T13:47:58.607Z"
 type: "MARKDOWN_NOTE"
 folder: "45b0680f0adbe2a3da40"
 title: "Ajax z jquery i flaskiem"
@@ -25,11 +25,12 @@ content: '''
               //Tu odbieramy odpowiedź jeśli wszystko
               //zakończy się powodzeniem
               success: function (response) {
-                  console.log(response);
+                  console.log(response.response);
+                  console.log(response.message);
               },
               //Tu natomiast przeciwnie
               error: function (error) {
-                  console.log(error);
+                  console.log(error.error);
               }
           });
   ```
@@ -43,6 +44,10 @@ content: '''
       butt = request.form.get('butt')
       prio = request.form.get('prio')
       pric = request.form.get('pric')
+      mess = "Wszystko gra!"
+      return jsonify({'response': 'OK!', 'message' : mess})
+      #lub
+      return jsonify({'error': 'Coś poszło nie tak.']})
   ```
   
   ***
