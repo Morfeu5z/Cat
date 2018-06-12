@@ -24,8 +24,8 @@
 >>      ### Tekst
 >> Im więcej `#` tym mniejszy nagłówek, czyli `# Tekst` to to samo co `<h1>Tekst</h1>`.
 >***
->#### Linie kodu
->>      `<some code>`
+>#### Dla pojedyńczych linii kodu
+>>      `<some line of code>`
 >> Używając `'`, to ten znak tam gdzie ` ~ `, możemy wypisywać linie kodu i będzie wyglądało to tak: `<some code>`
 > ***
 >#### Wyświetlenie obrazu
