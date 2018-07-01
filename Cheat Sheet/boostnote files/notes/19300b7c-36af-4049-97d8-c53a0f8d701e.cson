@@ -1,0 +1,66 @@
+createdAt: "2018-06-30T21:59:10.620Z"
+updatedAt: "2018-06-30T22:16:32.780Z"
+type: "MARKDOWN_NOTE"
+folder: "45b0680f0adbe2a3da40"
+title: "Linux"
+content: '''
+  # Linux
+  ***
+  ### Power Off
+  >#### Ubuntu & Fedora
+  > 
+  >     init 0
+  >#### Inne     
+  >
+  >     systemctl poweroff    
+  
+  ### Instalacja
+  >#### Ubuntu
+  > admin + polecenie instalacji + nazwa programu
+  > 
+  >     sudo apt-get install htop
+  >#### Fedora
+  > admin + polecenie instalacji + nazwa programu
+  > 
+  >     sudo yum install htop
+  
+  ### Update
+  >#### Ubuntu
+  > admin + polecenie instalacji + nazwa programu
+  > 
+  >     sudo apt-get update
+  >     sudo apt upgrade
+  >#### Fedora
+  > admin + polecenie instalacji + nazwa programu
+  > 
+  >     sudo yum update
+  >     sudo yum upgrade
+   
+  ### Nowy plik i katalog
+  >#### Ubuntu & Fedora
+  > admin + polecenie stworzenia pliku + nazwa pliku z rozszerzeniem
+  > 
+  >     sudo touch moj_plik.txt
+  > admin + polecenie stworzenia katalogu + nazwa katalogu
+  > 
+  >     sudo mkdir moj_katalog
+   
+  ### Przechodzenie po katalogach
+  >#### Ubuntu & Fedora
+  > polecenie przejścia + cel
+  > 
+  >     cd moj_katalog
+  > polecenie przejścia + cel
+  > 
+  >     cd moj_katalog/moj_katalog_2
+  > polecenie przejścia + cofnij do porzedniego katalogu
+  > 
+  >     cd ..
+  > polecenie przejścia + root
+  > 
+  >     cd ~
+  >     
+'''
+tags: []
+isStarred: false
+isTrashed: false
