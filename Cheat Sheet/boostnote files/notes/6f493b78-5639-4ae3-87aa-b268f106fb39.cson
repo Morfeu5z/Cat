@@ -1,0 +1,16 @@
+createdAt: "2018-07-08T20:05:00.909Z"
+updatedAt: "2018-07-08T20:07:57.719Z"
+type: "MARKDOWN_NOTE"
+folder: "c96688e4cfbae92b9ea3"
+title: "Fontello"
+content: '''
+  # Fontello
+  ***
+  ```html
+  <link rel=stylesheet type=text/css href="fontello/css/fontello.css">
+  <i class="icon-heartbeat"></i>
+  ```
+'''
+tags: []
+isStarred: false
+isTrashed: false
