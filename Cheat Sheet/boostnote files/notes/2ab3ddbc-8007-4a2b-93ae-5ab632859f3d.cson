@@ -1,5 +1,5 @@
 createdAt: "2018-11-15T14:41:30.990Z"
-updatedAt: "2018-11-15T15:34:39.432Z"
+updatedAt: "2019-03-09T12:21:36.657Z"
 type: "MARKDOWN_NOTE"
 folder: "45b0680f0adbe2a3da40"
 title: "Electron + node.js"
@@ -87,3 +87,4 @@ content: '''
 tags: []
 isStarred: false
 isTrashed: false
+linesHighlighted: []
