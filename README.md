@@ -7,29 +7,17 @@
 
 ### Co i dlaczego?
 
-Istnieje wiele poradników do wielu przypadków, jednak często jest tak, że ktoś próbuje wytłumaczyć i opisać dany problem. To oczywiście dobrze, aleee... takie poradniki opisują całość, pokazują wszystkie funkcje.
-
-To i dobrze i źle.
-
->Wiele jest pokazane z rzeczy przydatnych, ale równie wiele jest zbędnych.
+Istnieje wiele poradników do wielu przypadków, jednak często jest tak, że ktoś próbuje wytłumaczyć i opisać dany problem. To oczywiście dobrze, aleee... takie poradniki opisują więcej niż trzeba, a czasem za mało.
 
 <br>
 
 * **Mój plan na ten projekt jest prosty:**
 
-Stworzyć kolekcję poradników oraz cheat sheet'ów na podstawie tego co sam używam, co jest jest najbardziej niezbędne/przydatne i jak używać danej rzeczy wygodnie.
+Stworzyć kolekcję szybkich starterów, cheat sheet'ów na podstawie tego co sam używam. Wezmę pod uwagę to co jest mi najbardziej przydatne i jak używać danej rzeczy wygodnie.
 
->Po prostu opowiem krok po kroku jak używam danej aplikacji / jak rozwiązuję dany problem oraz wrzucę pliki ze zbiorem funkcji.
+Po prostu opowiem krok po kroku jak używam danej aplikacji / jak rozwiązuję dany problem. Czasem wrzucę jakieś pliki.
 
 
-### Jakie plany?
-* Stworzenie kolekcji Cheat Sheet'ów
-* Stworzenie serii poradników dla niedoświadczonych,
-* Platformy:
-  * Windows 10,
-  * Ubuntu,
-* Poradniki:
-  * Git & Github
-  * Boostnote & Markdown
-  * Docker
-</div>
+### W skrócie?
+* Nie ma magii
+* Są konfiguracje
