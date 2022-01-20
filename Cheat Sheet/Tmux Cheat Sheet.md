@@ -8,13 +8,20 @@
 
 ### Cheet Sheet:
 >#### Zacznijmy od tego, że:
->>       ctrl + b + ...
+>>       ctrl + b -> ...
 >używane jest do wszystkiego.
 >#### Dzielenie okna w poziomie
->>      ctrl + b + %
+>>      ctrl + b -> %
 >#### Dzielenie okna w pionie
->>      ctrl + b + "
+>>      ctrl + b -> "
 >#### Zamknięcie jednego terminala
->>      ctrl + b + c
+>>      ctrl + b -> c
 >#### Przejście po oknach
->>      ctrl + b + strzałki
+>>      ctrl + b -> strzałki
+>#### Zmiana rozmiaru okienka
+>>      ctrl + b -> : -> resize-pane -D 20
+>>      zmień rozmiar w dół o 20 wierszy
+>>      -D Down
+>>      -U Up
+>>      -L Left
+>>      -R Right
